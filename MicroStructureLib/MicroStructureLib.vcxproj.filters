@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\digitalimage">
+      <UniqueIdentifier>{c96a4a7f-0083-443c-8595-3ffec4422210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\digitalimage">
+      <UniqueIdentifier>{552945f2-cd68-4fb6-b586-4c3caee2c1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blobs">
+      <UniqueIdentifier>{e1308b9b-55c0-4306-954c-a75bf15844f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blobs">
+      <UniqueIdentifier>{175a6605-19f0-46ed-8cc3-9a9b9be34a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\experiment">
+      <UniqueIdentifier>{b7c2934e-f730-45bd-8df1-27d9dd1d4058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\experiment">
+      <UniqueIdentifier>{2bc216aa-1674-4a24-87a3-4137da32f2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\meshes">
+      <UniqueIdentifier>{c85e56c9-bd14-4369-a324-3e8bd54e7372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\meshes">
+      <UniqueIdentifier>{68b2a753-f3de-4d8b-82fd-909ce9b0905d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\surface">
+      <UniqueIdentifier>{f3fdeed4-e061-430a-a23c-a6f853b0e17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\surface">
+      <UniqueIdentifier>{1fb6a85e-f22d-463d-a845-b3e669300a69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="digitalimage\Volume.h">
+      <Filter>Header Files\digitalimage</Filter>
+    </ClInclude>
+    <ClInclude Include="blobs\Blob.h">
+      <Filter>Header Files\blobs</Filter>
+    </ClInclude>
+    <ClInclude Include="blobs\BlobCapsule.h">
+      <Filter>Header Files\blobs</Filter>
+    </ClInclude>
+    <ClInclude Include="blobs\BlobSphere.h">
+      <Filter>Header Files\blobs</Filter>
+    </ClInclude>
+    <ClInclude Include="digitalimage\Cell.h">
+      <Filter>Header Files\digitalimage</Filter>
+    </ClInclude>
+    <ClInclude Include="digitalimage\Image.h">
+      <Filter>Header Files\digitalimage</Filter>
+    </ClInclude>
+    <ClInclude Include="experiment\Sampler.h">
+      <Filter>Header Files\experiment</Filter>
+    </ClInclude>
+    <ClInclude Include="digitalimage\GrayScaleVolume.h">
+      <Filter>Header Files\digitalimage</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\Mesh.h">
+      <Filter>Header Files\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="digitalimage\BinaryVolume.h">
+      <Filter>Header Files\digitalimage</Filter>
+    </ClInclude>
+    <ClInclude Include="digitalimage\BoundaryElement.h">
+      <Filter>Header Files\digitalimage</Filter>
+    </ClInclude>
+    <ClInclude Include="surface\ArtzyAlgorithm.h">
+      <Filter>Header Files\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\QuadMesh.h">
+      <Filter>Header Files\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\TriangleMesh.h">
+      <Filter>Header Files\meshes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="digitalimage\Volume.cpp">
+      <Filter>Source Files\digitalimage</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\Blob.cpp">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\BlobCapsule.cpp">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\BlobSphere.cpp">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="digitalimage\Cell.cpp">
+      <Filter>Source Files\digitalimage</Filter>
+    </ClCompile>
+    <ClCompile Include="digitalimage\Image.cpp">
+      <Filter>Source Files\digitalimage</Filter>
+    </ClCompile>
+    <ClCompile Include="experiment\Sampler.cpp">
+      <Filter>Source Files\experiment</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\Mesh.cpp">
+      <Filter>Source Files\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="digitalimage\BinaryVolume.cpp">
+      <Filter>Source Files\digitalimage</Filter>
+    </ClCompile>
+    <ClCompile Include="digitalimage\BoundaryElement.cpp">
+      <Filter>Source Files\digitalimage</Filter>
+    </ClCompile>
+    <ClCompile Include="surface\ArzyAlgorithm.cpp">
+      <Filter>Source Files\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\TriangleMesh.cpp">
+      <Filter>Source Files\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\QuadMesh.cpp">
+      <Filter>Source Files\meshes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

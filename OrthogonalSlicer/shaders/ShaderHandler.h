@@ -1,0 +1,38 @@
+#ifndef SHADER_HANDLER_H_
+#define SHADER_HANDLER_H_
+
+#include <GL/glew.h>
+#include <string>
+using namespace std;
+
+namespace shaders {
+class ShaderHandler {
+	public:
+
+		ShaderHandler(string vertex_shader_file_name, string fragment_shader_file_name);
+		~ShaderHandler();
+
+		void use_program();
+
+		GLint get_uniform_location(string variable);
+		GLint get_attrib_location(string variable);
+
+		GLenum get_error();
+
+		string vertex_shader_source;
+		string fragment_shader_source;
+
+	private:
+      
+		ShaderHandler();
+
+		GLuint m_vertex_shader;
+		GLuint m_fragment_shader;
+		GLuint m_program;
+};
+
+void printShaderInfoLog(GLuint object);
+void printProgramInfoLog(GLuint object);
+}
+
+#endif
